@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-top: 10%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #e0e0e0 !important;
+  }
+  
+  /* Hero Section Styles */
+  
+  .hero {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .hero .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  .hero .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Section Titles */
+  
+  .section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  /* Card Styles */
+  
+  .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .card .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .card .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contact Form Styles */
+  
+  .container1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #job-apply-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .apply-btn {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0056b3;
+  }
+
+  /* Hero Section Styles */
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.enroll-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.enroll-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enroll-form .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.enroll-form .form-control {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.enroll-form button[type="submit"] {
+  width: 100%;
+  max-width: 200px;
+  margin: 20px auto;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.enroll-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2em;
+    }
+    .hero p {
+      font-size: 1em;
+    }
+    .navbar-nav .nav-link {
+      margin-left: 10px;
+    }
+  }
+  

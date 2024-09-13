@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Literacy Platform</title>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<a class="navbar-brand" href="#">Techtorch</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#courses">Courses</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#jobs">Job Board</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#mentorship">Mentorship</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+</ul>
+</div>
+</nav>
+
+
+<!-- Hero Section -->
+<section id="enroll" class="hero-section">
+  <div class="container">
+      <h1>Enroll Now</h1>
+      <p>Join our community today and start learning!</p>
+      <div class="enroll-form">
+          <form id="enroll-form">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                  <label for="course">Select Course:</label>
+                  <select id="course" name="course" required>
+                      <option value="">Select Course</option>
+                      <option value="course1">Web Development Fundamentals</option>
+                      <option value="course2">Digital Marketing Essentials</option>
+                      <option value="course3">Data Analysis with Excel</option>
+                      <option value="course4">Cybersecurity Fundamentals</option>
+                      <option value="course5">Artificial Intelligence and Machine Learning</option>
+                      <option value="course6">Cloud Computing Fundamentals</option>
+                      <option value="course7">Full Stack Development</option>
+                      <option value="course8">Database Management</option>
+                      <option value="course9">Cloud Architecture</option>
+                      <option value="course10">DevOps Engineering</option>
+                      <option value="course11">Data Visualization</option>
+                      <option value="course12">Artificial Intelligence for Business</option>
+                  </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Enroll Now</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+
+</body>
+</html>

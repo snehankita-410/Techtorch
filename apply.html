@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Literacy Platform</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">Techtorch</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#jobs">Job Board</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mentorship">Mentorship</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Empower Your Digital Future</h1>
+        <p>Join our digital literacy program and unlock new opportunities</p>
+        <button class="apply-btn">Apply Now</button>
+    </div>
+    <!-- Job Application Form -->
+    <div class="container1">
+        <div class="form-container">
+          <h2>Apply Now for Job Opportunities</h2>
+          <form id="job-apply-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="resume">Upload Resume:</label>
+              <input type="file" id="resume" name="resume" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="position">Select Job Position:</label>
+              <select id="position" name="position" class="form-control" required>
+                <option value="">Select Position</option>
+                <option value="software-developer">Software Developer</option>
+                <option value="data-analyst">Data Analyst</option>
+                <option value="digital-marketing-specialist">Digital Marketing Specialist</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cover-letter">Cover Letter:</label>
+              <textarea id="cover-letter" name="cover-letter" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="apply-btn">Apply Now</button>
+          </form>
+        </div>
+      </div>
+      
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
